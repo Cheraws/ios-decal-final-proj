@@ -12,11 +12,11 @@ To allow preparation for the career fair by looking up companies and keeping tra
 
 ## Control Flow
 - Create a careerFair event.
-- Have a search that allows you to add companies to the home page, or alternatively add your own company you are itnerested in.
+- Have a search that allows you to add companies to the career fair page, or alternatively add your own company you are itnerested in.
 - Look at the company page and figure out if you want to apply to the company.
 - if you do, you can add it to your main page.
 - on the day of the career fair, you can click the company while in line to get some last minute notes about it.
-- Add notes about the company while on the app.
+- Add notes about the company while on the app like application emails.
 ## Implementation
 
 ### Model 
