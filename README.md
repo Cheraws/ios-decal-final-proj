@@ -21,6 +21,7 @@ To allow preparation for the career fair by looking up companies and keeping tra
 - Click the company to edit what you want.
 - on the day of the career fair, you can click the company while in line to get some last minute notes or make some about it.
 - Add notes about the company while on the app like application emails.
+- Once you're done, you can press the edit button to delete the companies you have finished with.
 
 
 ## Implementation
