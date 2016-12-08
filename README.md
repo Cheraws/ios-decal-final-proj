@@ -33,5 +33,5 @@ AddCompanyController
 
 ### Closing thoughts
 If I had more time, I would have integrated photo taking within my app, but I was having issues filling everything up within the screen. How it works is when you press the plus button, you enter a company name. Once you have done that, you can touch the company name to receive info about it. With more time, I would have also tried to improve it so that it would look proper on all the devices. An example of the image is shown below.
-![alt text](https://github.com/Cheraws/ios-decal-final-proj/demonstration.png  "Logo Title Text 1")
+![alt text](https://github.com/Cheraws/ios-decal-final-proj/blob/master/demonstration.png  "Logo Title Text 1")
 
