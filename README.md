@@ -42,9 +42,9 @@ Scraper.swift
 - AddCompany
     
 ### Controller
-ListViewController
-ViewCompanyController
-AddCompanyController
+- ListViewController
+- ViewCompanyController
+- AddCompanyController
 
 
 ### Closing thoughts
