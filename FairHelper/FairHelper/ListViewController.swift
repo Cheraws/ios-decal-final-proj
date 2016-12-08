@@ -64,8 +64,8 @@ class ListViewController: UITableViewController,AddCompanyViewControllerDelegate
         let new_title = name.replacingOccurrences(of: " ", with: "_")
         let a = Scraper()
         
-        let item = Item(name: new_title)
-        a.scrapeWiki(name: name, item:item, controller: self)
+        let item = Item(name: name)
+        a.scrapeWiki(name: new_title    , item:item, controller: self)
         items.append(item)
         tableView.insertRows(at: [IndexPath(row: (items.count - 1), section: 0)], with: .none)
         
