@@ -1,0 +1,632 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C0A26432B27154FF3C09423 /* Pods_FairHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10CD7DBA3AD96D540B041A90 /* Pods_FairHelper.framework */; };
+		E109CA171DF8AE7200FB3443 /* AddNotesContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E109CA161DF8AE7200FB3443 /* AddNotesContactsViewController.swift */; };
+		E1E3DECE1DF6A1E4006C85EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E3DECD1DF6A1E4006C85EB /* AppDelegate.swift */; };
+		E1E3DED01DF6A1E4006C85EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E3DECF1DF6A1E4006C85EB /* ViewController.swift */; };
+		E1E3DED31DF6A1E4006C85EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1E3DED11DF6A1E4006C85EB /* Main.storyboard */; };
+		E1E3DED51DF6A1E4006C85EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1E3DED41DF6A1E4006C85EB /* Assets.xcassets */; };
+		E1E3DED81DF6A1E4006C85EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1E3DED61DF6A1E4006C85EB /* LaunchScreen.storyboard */; };
+		E1E3DEE31DF6A1E4006C85EB /* FairHelperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E3DEE21DF6A1E4006C85EB /* FairHelperTests.swift */; };
+		E1E3DEEE1DF6A1E4006C85EB /* FairHelperUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E3DEED1DF6A1E4006C85EB /* FairHelperUITests.swift */; };
+		E1E3DEFC1DF7853C006C85EB /* AddCompanyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E3DEFB1DF7853C006C85EB /* AddCompanyViewController.swift */; };
+		E1E3DEFE1DF78DAF006C85EB /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E3DEFD1DF78DAF006C85EB /* ListViewController.swift */; };
+		E1E3DF001DF7ADCB006C85EB /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E3DEFF1DF7ADCB006C85EB /* Item.swift */; };
+		E1E3DF021DF7B00E006C85EB /* Scraper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E3DF011DF7B00E006C85EB /* Scraper.swift */; };
+		E1E3DF041DF7D534006C85EB /* ViewCompanyController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E3DF031DF7D534006C85EB /* ViewCompanyController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E1E3DEDF1DF6A1E4006C85EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1E3DEC21DF6A1E4006C85EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1E3DEC91DF6A1E4006C85EB;
+			remoteInfo = FairHelper;
+		};
+		E1E3DEEA1DF6A1E4006C85EB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E1E3DEC21DF6A1E4006C85EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E1E3DEC91DF6A1E4006C85EB;
+			remoteInfo = FairHelper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10CD7DBA3AD96D540B041A90 /* Pods_FairHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FairHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5CCC6CA59D80469DC76A892 /* Pods-FairHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FairHelper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FairHelper/Pods-FairHelper.debug.xcconfig"; sourceTree = "<group>"; };
+		E109CA161DF8AE7200FB3443 /* AddNotesContactsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNotesContactsViewController.swift; sourceTree = "<group>"; };
+		E1E3DECA1DF6A1E4006C85EB /* FairHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FairHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1E3DECD1DF6A1E4006C85EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E1E3DECF1DF6A1E4006C85EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E1E3DED21DF6A1E4006C85EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E1E3DED41DF6A1E4006C85EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E1E3DED71DF6A1E4006C85EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E1E3DED91DF6A1E4006C85EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1E3DEDE1DF6A1E4006C85EB /* FairHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FairHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1E3DEE21DF6A1E4006C85EB /* FairHelperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FairHelperTests.swift; sourceTree = "<group>"; };
+		E1E3DEE41DF6A1E4006C85EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1E3DEE91DF6A1E4006C85EB /* FairHelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FairHelperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E1E3DEED1DF6A1E4006C85EB /* FairHelperUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FairHelperUITests.swift; sourceTree = "<group>"; };
+		E1E3DEEF1DF6A1E4006C85EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E1E3DEFB1DF7853C006C85EB /* AddCompanyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCompanyViewController.swift; sourceTree = "<group>"; };
+		E1E3DEFD1DF78DAF006C85EB /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		E1E3DEFF1DF7ADCB006C85EB /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		E1E3DF011DF7B00E006C85EB /* Scraper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scraper.swift; sourceTree = "<group>"; };
+		E1E3DF031DF7D534006C85EB /* ViewCompanyController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewCompanyController.swift; sourceTree = "<group>"; };
+		EA07B3A9806B233C8F07100B /* Pods-FairHelper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FairHelper.release.xcconfig"; path = "Pods/Target Support Files/Pods-FairHelper/Pods-FairHelper.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E1E3DEC71DF6A1E4006C85EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C0A26432B27154FF3C09423 /* Pods_FairHelper.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1E3DEDB1DF6A1E4006C85EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1E3DEE61DF6A1E4006C85EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		189549321BD2DFE4CABDCDEE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				10CD7DBA3AD96D540B041A90 /* Pods_FairHelper.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9CDF7AB8AC01E4999434882 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D5CCC6CA59D80469DC76A892 /* Pods-FairHelper.debug.xcconfig */,
+				EA07B3A9806B233C8F07100B /* Pods-FairHelper.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E1E3DEC11DF6A1E4006C85EB = {
+			isa = PBXGroup;
+			children = (
+				E1E3DECC1DF6A1E4006C85EB /* FairHelper */,
+				E1E3DEE11DF6A1E4006C85EB /* FairHelperTests */,
+				E1E3DEEC1DF6A1E4006C85EB /* FairHelperUITests */,
+				E1E3DECB1DF6A1E4006C85EB /* Products */,
+				B9CDF7AB8AC01E4999434882 /* Pods */,
+				189549321BD2DFE4CABDCDEE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E1E3DECB1DF6A1E4006C85EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E1E3DECA1DF6A1E4006C85EB /* FairHelper.app */,
+				E1E3DEDE1DF6A1E4006C85EB /* FairHelperTests.xctest */,
+				E1E3DEE91DF6A1E4006C85EB /* FairHelperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E1E3DECC1DF6A1E4006C85EB /* FairHelper */ = {
+			isa = PBXGroup;
+			children = (
+				E1E3DECD1DF6A1E4006C85EB /* AppDelegate.swift */,
+				E1E3DECF1DF6A1E4006C85EB /* ViewController.swift */,
+				E1E3DED11DF6A1E4006C85EB /* Main.storyboard */,
+				E1E3DED41DF6A1E4006C85EB /* Assets.xcassets */,
+				E1E3DED61DF6A1E4006C85EB /* LaunchScreen.storyboard */,
+				E1E3DED91DF6A1E4006C85EB /* Info.plist */,
+				E1E3DEFB1DF7853C006C85EB /* AddCompanyViewController.swift */,
+				E1E3DF011DF7B00E006C85EB /* Scraper.swift */,
+				E1E3DEFF1DF7ADCB006C85EB /* Item.swift */,
+				E1E3DEFD1DF78DAF006C85EB /* ListViewController.swift */,
+				E1E3DF031DF7D534006C85EB /* ViewCompanyController.swift */,
+				E109CA161DF8AE7200FB3443 /* AddNotesContactsViewController.swift */,
+			);
+			path = FairHelper;
+			sourceTree = "<group>";
+		};
+		E1E3DEE11DF6A1E4006C85EB /* FairHelperTests */ = {
+			isa = PBXGroup;
+			children = (
+				E1E3DEE21DF6A1E4006C85EB /* FairHelperTests.swift */,
+				E1E3DEE41DF6A1E4006C85EB /* Info.plist */,
+			);
+			path = FairHelperTests;
+			sourceTree = "<group>";
+		};
+		E1E3DEEC1DF6A1E4006C85EB /* FairHelperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E1E3DEED1DF6A1E4006C85EB /* FairHelperUITests.swift */,
+				E1E3DEEF1DF6A1E4006C85EB /* Info.plist */,
+			);
+			path = FairHelperUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E1E3DEC91DF6A1E4006C85EB /* FairHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1E3DEF21DF6A1E4006C85EB /* Build configuration list for PBXNativeTarget "FairHelper" */;
+			buildPhases = (
+				615C0C8DF5EEE3D830D45725 /* [CP] Check Pods Manifest.lock */,
+				E1E3DEC61DF6A1E4006C85EB /* Sources */,
+				E1E3DEC71DF6A1E4006C85EB /* Frameworks */,
+				E1E3DEC81DF6A1E4006C85EB /* Resources */,
+				FC6C8AE7DEC255AE7D92BF2D /* [CP] Embed Pods Frameworks */,
+				5D1F6B5E6B8B659D3C3DEB34 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FairHelper;
+			productName = FairHelper;
+			productReference = E1E3DECA1DF6A1E4006C85EB /* FairHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E1E3DEDD1DF6A1E4006C85EB /* FairHelperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1E3DEF51DF6A1E4006C85EB /* Build configuration list for PBXNativeTarget "FairHelperTests" */;
+			buildPhases = (
+				E1E3DEDA1DF6A1E4006C85EB /* Sources */,
+				E1E3DEDB1DF6A1E4006C85EB /* Frameworks */,
+				E1E3DEDC1DF6A1E4006C85EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1E3DEE01DF6A1E4006C85EB /* PBXTargetDependency */,
+			);
+			name = FairHelperTests;
+			productName = FairHelperTests;
+			productReference = E1E3DEDE1DF6A1E4006C85EB /* FairHelperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E1E3DEE81DF6A1E4006C85EB /* FairHelperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E1E3DEF81DF6A1E4006C85EB /* Build configuration list for PBXNativeTarget "FairHelperUITests" */;
+			buildPhases = (
+				E1E3DEE51DF6A1E4006C85EB /* Sources */,
+				E1E3DEE61DF6A1E4006C85EB /* Frameworks */,
+				E1E3DEE71DF6A1E4006C85EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E1E3DEEB1DF6A1E4006C85EB /* PBXTargetDependency */,
+			);
+			name = FairHelperUITests;
+			productName = FairHelperUITests;
+			productReference = E1E3DEE91DF6A1E4006C85EB /* FairHelperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E1E3DEC21DF6A1E4006C85EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Robert;
+				TargetAttributes = {
+					E1E3DEC91DF6A1E4006C85EB = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					E1E3DEDD1DF6A1E4006C85EB = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E1E3DEC91DF6A1E4006C85EB;
+					};
+					E1E3DEE81DF6A1E4006C85EB = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E1E3DEC91DF6A1E4006C85EB;
+					};
+				};
+			};
+			buildConfigurationList = E1E3DEC51DF6A1E4006C85EB /* Build configuration list for PBXProject "FairHelper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E1E3DEC11DF6A1E4006C85EB;
+			productRefGroup = E1E3DECB1DF6A1E4006C85EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E1E3DEC91DF6A1E4006C85EB /* FairHelper */,
+				E1E3DEDD1DF6A1E4006C85EB /* FairHelperTests */,
+				E1E3DEE81DF6A1E4006C85EB /* FairHelperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E1E3DEC81DF6A1E4006C85EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1E3DED81DF6A1E4006C85EB /* LaunchScreen.storyboard in Resources */,
+				E1E3DED51DF6A1E4006C85EB /* Assets.xcassets in Resources */,
+				E1E3DED31DF6A1E4006C85EB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1E3DEDC1DF6A1E4006C85EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1E3DEE71DF6A1E4006C85EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5D1F6B5E6B8B659D3C3DEB34 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FairHelper/Pods-FairHelper-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		615C0C8DF5EEE3D830D45725 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FC6C8AE7DEC255AE7D92BF2D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FairHelper/Pods-FairHelper-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E1E3DEC61DF6A1E4006C85EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1E3DF001DF7ADCB006C85EB /* Item.swift in Sources */,
+				E1E3DED01DF6A1E4006C85EB /* ViewController.swift in Sources */,
+				E1E3DF021DF7B00E006C85EB /* Scraper.swift in Sources */,
+				E1E3DECE1DF6A1E4006C85EB /* AppDelegate.swift in Sources */,
+				E1E3DEFE1DF78DAF006C85EB /* ListViewController.swift in Sources */,
+				E1E3DEFC1DF7853C006C85EB /* AddCompanyViewController.swift in Sources */,
+				E1E3DF041DF7D534006C85EB /* ViewCompanyController.swift in Sources */,
+				E109CA171DF8AE7200FB3443 /* AddNotesContactsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1E3DEDA1DF6A1E4006C85EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1E3DEE31DF6A1E4006C85EB /* FairHelperTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E1E3DEE51DF6A1E4006C85EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1E3DEEE1DF6A1E4006C85EB /* FairHelperUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E1E3DEE01DF6A1E4006C85EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1E3DEC91DF6A1E4006C85EB /* FairHelper */;
+			targetProxy = E1E3DEDF1DF6A1E4006C85EB /* PBXContainerItemProxy */;
+		};
+		E1E3DEEB1DF6A1E4006C85EB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E1E3DEC91DF6A1E4006C85EB /* FairHelper */;
+			targetProxy = E1E3DEEA1DF6A1E4006C85EB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E1E3DED11DF6A1E4006C85EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1E3DED21DF6A1E4006C85EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E1E3DED61DF6A1E4006C85EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E1E3DED71DF6A1E4006C85EB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E1E3DEF01DF6A1E4006C85EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E1E3DEF11DF6A1E4006C85EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E1E3DEF31DF6A1E4006C85EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5CCC6CA59D80469DC76A892 /* Pods-FairHelper.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FairHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Robert.FairHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E1E3DEF41DF6A1E4006C85EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA07B3A9806B233C8F07100B /* Pods-FairHelper.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = FairHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Robert.FairHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E1E3DEF61DF6A1E4006C85EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FairHelperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Robert.FairHelperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FairHelper.app/FairHelper";
+			};
+			name = Debug;
+		};
+		E1E3DEF71DF6A1E4006C85EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = FairHelperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Robert.FairHelperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FairHelper.app/FairHelper";
+			};
+			name = Release;
+		};
+		E1E3DEF91DF6A1E4006C85EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FairHelperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Robert.FairHelperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FairHelper;
+			};
+			name = Debug;
+		};
+		E1E3DEFA1DF6A1E4006C85EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = FairHelperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Robert.FairHelperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = FairHelper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E1E3DEC51DF6A1E4006C85EB /* Build configuration list for PBXProject "FairHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1E3DEF01DF6A1E4006C85EB /* Debug */,
+				E1E3DEF11DF6A1E4006C85EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1E3DEF21DF6A1E4006C85EB /* Build configuration list for PBXNativeTarget "FairHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1E3DEF31DF6A1E4006C85EB /* Debug */,
+				E1E3DEF41DF6A1E4006C85EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1E3DEF51DF6A1E4006C85EB /* Build configuration list for PBXNativeTarget "FairHelperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1E3DEF61DF6A1E4006C85EB /* Debug */,
+				E1E3DEF71DF6A1E4006C85EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E1E3DEF81DF6A1E4006C85EB /* Build configuration list for PBXNativeTarget "FairHelperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1E3DEF91DF6A1E4006C85EB /* Debug */,
+				E1E3DEFA1DF6A1E4006C85EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E1E3DEC21DF6A1E4006C85EB /* Project object */;
+}
