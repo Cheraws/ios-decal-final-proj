@@ -13,14 +13,18 @@ protocol AddCompanyViewControllerDelegate {
 }
 
 class AddCompanyViewController: UIViewController, UITextFieldDelegate {
+
+
     
     
     @IBOutlet var nameTextField: UITextField!
+    @IBOutlet var searchController:UISearchController!
+    @IBOutlet var searchBar:UISearchBar!
     var delegate: AddCompanyViewControllerDelegate?
     var placeholderLabel : UILabel!
     override func viewDidLoad() {
         title = "Add Company"
-        
+        definesPresentationContext = true
         nameTextField.delegate = self;
         placeholderLabel = UILabel()
         placeholderLabel.text = "Company name"
@@ -35,10 +39,12 @@ class AddCompanyViewController: UIViewController, UITextFieldDelegate {
         // Do any additional setup after loading the view.
     }
     
+    
     func textFieldDidChange (_ textField: UITextField) {
         print("Do you see me?")
         placeholderLabel.isHidden = true
     }
+    
     
     func textFieldDidBeginEditing(_ textField: UITextField) {
         print("Do you see me?")

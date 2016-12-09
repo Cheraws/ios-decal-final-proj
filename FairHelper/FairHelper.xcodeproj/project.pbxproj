@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		4C0A26432B27154FF3C09423 /* Pods_FairHelper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10CD7DBA3AD96D540B041A90 /* Pods_FairHelper.framework */; };
 		E109CA171DF8AE7200FB3443 /* AddNotesContactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E109CA161DF8AE7200FB3443 /* AddNotesContactsViewController.swift */; };
+		E109CA191DF9FC2E00FB3443 /* SearchCompanyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E109CA181DF9FC2E00FB3443 /* SearchCompanyViewController.swift */; };
+		E109CA1B1DFA06D000FB3443 /* company_list.txt in Resources */ = {isa = PBXBuildFile; fileRef = E109CA1A1DFA06D000FB3443 /* company_list.txt */; };
 		E1E3DECE1DF6A1E4006C85EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E3DECD1DF6A1E4006C85EB /* AppDelegate.swift */; };
 		E1E3DED01DF6A1E4006C85EB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1E3DECF1DF6A1E4006C85EB /* ViewController.swift */; };
 		E1E3DED31DF6A1E4006C85EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E1E3DED11DF6A1E4006C85EB /* Main.storyboard */; };
@@ -44,6 +46,8 @@
 		10CD7DBA3AD96D540B041A90 /* Pods_FairHelper.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FairHelper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5CCC6CA59D80469DC76A892 /* Pods-FairHelper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FairHelper.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FairHelper/Pods-FairHelper.debug.xcconfig"; sourceTree = "<group>"; };
 		E109CA161DF8AE7200FB3443 /* AddNotesContactsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddNotesContactsViewController.swift; sourceTree = "<group>"; };
+		E109CA181DF9FC2E00FB3443 /* SearchCompanyViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchCompanyViewController.swift; sourceTree = "<group>"; };
+		E109CA1A1DFA06D000FB3443 /* company_list.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = company_list.txt; sourceTree = "<group>"; };
 		E1E3DECA1DF6A1E4006C85EB /* FairHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FairHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1E3DECD1DF6A1E4006C85EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E1E3DECF1DF6A1E4006C85EB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -145,6 +149,8 @@
 				E1E3DEFD1DF78DAF006C85EB /* ListViewController.swift */,
 				E1E3DF031DF7D534006C85EB /* ViewCompanyController.swift */,
 				E109CA161DF8AE7200FB3443 /* AddNotesContactsViewController.swift */,
+				E109CA181DF9FC2E00FB3443 /* SearchCompanyViewController.swift */,
+				E109CA1A1DFA06D000FB3443 /* company_list.txt */,
 			);
 			path = FairHelper;
 			sourceTree = "<group>";
@@ -279,6 +285,7 @@
 			files = (
 				E1E3DED81DF6A1E4006C85EB /* LaunchScreen.storyboard in Resources */,
 				E1E3DED51DF6A1E4006C85EB /* Assets.xcassets in Resources */,
+				E109CA1B1DFA06D000FB3443 /* company_list.txt in Resources */,
 				E1E3DED31DF6A1E4006C85EB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -353,6 +360,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E1E3DF001DF7ADCB006C85EB /* Item.swift in Sources */,
+				E109CA191DF9FC2E00FB3443 /* SearchCompanyViewController.swift in Sources */,
 				E1E3DED01DF6A1E4006C85EB /* ViewController.swift in Sources */,
 				E1E3DF021DF7B00E006C85EB /* Scraper.swift in Sources */,
 				E1E3DECE1DF6A1E4006C85EB /* AppDelegate.swift in Sources */,

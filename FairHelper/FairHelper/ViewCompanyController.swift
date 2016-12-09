@@ -49,6 +49,7 @@ class ViewCompanyController: UIViewController,ViewCompanyControllerDelegate {
             imageView.image = UIImage(data: data!)
         }
         catch{
+            
             print("invalid url")
             return
         }

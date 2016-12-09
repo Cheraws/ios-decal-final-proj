@@ -1,0 +1,110 @@
+NASDAQ-100
+21st Century Fox
+Activision Blizzard
+Adobe Systems
+Akamai Technologies
+Alexion Pharmaceuticals
+Alphabet Inc.
+Altera
+Amazon.com
+American Airlines Group
+Amgen
+Analog Devices
+Apple Inc.
+Applied Materials
+Atlanta Braves
+Autodesk
+Automatic Data Processing
+Baidu
+Bed Bath & Beyond
+Biogen
+BioMarin Pharmaceutical
+Broadcom
+Broadcom Limited
+C. H. Robinson
+CA Technologies
+Celgene
+Cerner
+Charter Communications
+Check Point
+Cisco Systems
+Citrix Systems
+Cognizant
+Comcast
+Costco
+CSX Corporation
+Ctrip
+Discovery Communications
+Dish Network
+Dollar Tree
+EBay
+Electronic Arts
+Endo International plc
+Expedia, Inc.
+Expeditors International
+Express Scripts
+Facebook
+Fastenal
+Fiserv
+Garmin
+Gilead Sciences
+Henry Schein
+Illumina (company)
+Incyte
+Intel
+Intuit
+Intuitive Surgical
+JD.com
+Kraft Heinz
+Lam Research
+Liberty Global
+Liberty Interactive
+Liberty Media
+Marriott International
+Mattel
+Maxim Integrated
+Micron Technology
+Microsoft
+Mondelez International
+Monster Beverage
+Mylan
+National Amusements
+NetApp
+NetEase
+Netflix
+Norwegian Cruise Line
+Nvidia
+NXP Semiconductors
+O'Reilly Auto Parts
+Paccar
+Paychex
+PayPal
+The Priceline Group
+Qualcomm
+Regeneron
+Ross Dress for Less
+SanDisk
+SBA Communications
+Seagate Technology
+Sirius XM Holdings
+Skyworks Solutions
+Staples Inc.
+Starbucks
+Stericycle
+Symantec
+T-Mobile US
+Tesla Motors
+Texas Instruments
+Tractor Supply Company
+TripAdvisor
+Verisk Analytics
+Vertex Pharmaceuticals
+Viacom
+VimpelCom Ltd.
+Vodafone
+Walgreens Boots Alliance
+Western Digital
+Whole Foods Market
+Wynn Resorts
+Xilinx
+Yahoo!

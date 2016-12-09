@@ -6,33 +6,157 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "FairHelper/ViewController.swift"
-            timestampString = "502766409.064328"
+            filePath = "FairHelper/SearchCompanyViewController.swift"
+            timestampString = "502933424.586642"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "41"
-            endingLineNumber = "41"
-            landmarkName = "parseHTML(html:)"
-            landmarkType = "7">
+            startingLineNumber = "24"
+            endingLineNumber = "24"
+            landmarkName = "SearchCompanyViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FairHelper.SearchCompanyViewController.init (style : __C.UITableViewStyle) -&gt; FairHelper.SearchCompanyViewController"
+                  moduleName = "FairHelper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/robert/berkeleyios/ios-decal-hw4/ios-decal-final-proj/FairHelper/FairHelper/SearchCompanyViewController.swift"
+                  timestampString = "502935478.195978"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FairHelper.SearchCompanyViewController.__allocating_init (style : __C.UITableViewStyle) -&gt; FairHelper.SearchCompanyViewController"
+                  moduleName = "FairHelper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/robert/berkeleyios/ios-decal-hw4/ios-decal-final-proj/FairHelper/FairHelper/SearchCompanyViewController.swift"
+                  timestampString = "502935478.198364"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FairHelper.SearchCompanyViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; FairHelper.SearchCompanyViewController"
+                  moduleName = "FairHelper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/robert/berkeleyios/ios-decal-hw4/ios-decal-final-proj/FairHelper/FairHelper/SearchCompanyViewController.swift"
+                  timestampString = "502935478.201496"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "51">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FairHelper.SearchCompanyViewController.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; FairHelper.SearchCompanyViewController"
+                  moduleName = "FairHelper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/robert/berkeleyios/ios-decal-hw4/ios-decal-final-proj/FairHelper/FairHelper/SearchCompanyViewController.swift"
+                  timestampString = "502935478.203938"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            shouldBeEnabled = "No"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "FairHelper/ViewCompanyController.swift"
-            timestampString = "502863157.787189"
+            filePath = "FairHelper/SearchCompanyViewController.swift"
+            timestampString = "502929599.930411"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "43"
-            endingLineNumber = "43"
-            landmarkName = "viewDidLoad()"
-            landmarkType = "7">
+            startingLineNumber = "18"
+            endingLineNumber = "18"
+            landmarkName = "String"
+            landmarkType = "4">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FairHelper.SearchCompanyViewController.__deallocating_deinit"
+                  moduleName = "FairHelper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/robert/berkeleyios/ios-decal-hw4/ios-decal-final-proj/FairHelper/FairHelper/SearchCompanyViewController.swift"
+                  timestampString = "502935478.210909"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FairHelper.SearchCompanyViewController.__allocating_init (style : __C.UITableViewStyle) -&gt; FairHelper.SearchCompanyViewController"
+                  moduleName = "FairHelper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/robert/berkeleyios/ios-decal-hw4/ios-decal-final-proj/FairHelper/FairHelper/SearchCompanyViewController.swift"
+                  timestampString = "502935478.218097"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FairHelper.SearchCompanyViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; FairHelper.SearchCompanyViewController"
+                  moduleName = "FairHelper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/robert/berkeleyios/ios-decal-hw4/ios-decal-final-proj/FairHelper/FairHelper/SearchCompanyViewController.swift"
+                  timestampString = "502935478.22089"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "51">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FairHelper.SearchCompanyViewController.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; FairHelper.SearchCompanyViewController"
+                  moduleName = "FairHelper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/robert/berkeleyios/ios-decal-hw4/ios-decal-final-proj/FairHelper/FairHelper/SearchCompanyViewController.swift"
+                  timestampString = "502935478.223668"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

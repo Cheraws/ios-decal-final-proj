@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "7FF46C384888EDCBC6DC72FABEDDB4229D9ECE10",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "7FF46C384888EDCBC6DC72FABEDDB4229D9ECE10" : 9223372036854775807,
+    "11E52178DD2EC05CDE4C0EE5549B387A75A90823" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3FD721FB-5EC8-48BB-AD0E-FD264CA4E967",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "7FF46C384888EDCBC6DC72FABEDDB4229D9ECE10" : "ios-decal-final-proj\/",
+    "11E52178DD2EC05CDE4C0EE5549B387A75A90823" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "FairHelper",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "FairHelper\/FairHelper.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Cheraws\/ios-decal-hw4",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "11E52178DD2EC05CDE4C0EE5549B387A75A90823"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Cheraws\/ios-decal-final-proj",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "7FF46C384888EDCBC6DC72FABEDDB4229D9ECE10"
+    }
+  ]
+}
