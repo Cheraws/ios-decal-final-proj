@@ -79,7 +79,7 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="eaX-il-X4o" id="5El-dR-bUF">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </tableViewCellContentView>
                             </tableViewCell>
@@ -236,7 +236,13 @@
                             <outlet property="delegate" destination="RKI-6N-a8R" id="oan-wk-pWH"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" id="bNj-FO-24T"/>
+                    <navigationItem key="navigationItem" id="bNj-FO-24T">
+                        <barButtonItem key="leftBarButtonItem" title="Cancel" id="fRJ-NA-E2r">
+                            <connections>
+                                <action selector="cancel:" destination="RKI-6N-a8R" id="YQo-Lt-ktr"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <segue destination="Cgr-og-Mtu" kind="unwind" identifier="unwindToList" unwindAction="unwindToListWithSegue:" id="rar-Dc-d5f"/>
                     </connections>
